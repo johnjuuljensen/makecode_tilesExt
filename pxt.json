@@ -11,7 +11,13 @@
         "assets.json"
     ],
     "testFiles": [
-        "test.ts"
+        "main.blocks",
+        "main.ts",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "targetVersions": {
         "target": "1.12.47",
