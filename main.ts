@@ -25,3 +25,6 @@ let mySprite = sprites.create(img`
     ........................
     `, SpriteKind.Player)
 tiles.setCurrentTilemap(tilemap`level2`)
+for (let value of tilesExt.line(tilesExt.LineType.Diagonal, tiles.getTileLocation(0, 0), tiles.getTileLocation(5, 5))) {
+    tiles.setTileAt(value, sprites.builtin.brick)
+}
